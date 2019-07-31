@@ -1,0 +1,6 @@
+{
+    "parent": "block/redpwr",
+    "textures": {
+        "power": "block/redpwr00"
+    }
+}
