@@ -5,11 +5,17 @@ $destination = "Q:\games\Minecraft\textureedit\omegacraft14\backup_omegacraft14_
 
 # Backup resource pack
 	Write-Host "Backing up omegacraft14..."
-	Move-Item -Path "Q:\games\Minecraft\textureedit\omegacraft14\omegacraft14.zip" -Destination $destination
+	Copy-Item -Path "Q:\games\Minecraft\textureedit\omegacraft14\omegacraft14.zip" -Destination $destination
 	Write-Host "Done."
 
 # Create new pack and move it
-	7z a "Q:\games\Minecraft\textureedit\omegacraft14\omegacraft14.zip" "Q:\games\Minecraft\textureedit\omegacraft14\OmegaCraft-Resource-Pack\omegacraft14\*"
+	if (!(Test-Path "Q:\games\Minecraft\textureedit\omegacraft14\omegacraft14.zip")) {
+		7z a "Q:\games\Minecraft\textureedit\omegacraft14\omegacraft14.zip" "Q:\games\Minecraft\textureedit\omegacraft14\OmegaCraft-Resource-Pack\omegacraft14\*"
+	}
+	else {
+		7z u -up0q3r2x2y2z1w2 "Q:\games\Minecraft\textureedit\omegacraft14\omegacraft14.zip" "Q:\games\Minecraft\textureedit\omegacraft14\OmegaCraft-Resource-Pack\omegacraft14\*"
+	}
+	
 	Move-Item -Path "Q:\games\Minecraft\textureedit\omegacraft14\omegacraft14.zip" -Destination "Q:\games\Minecraft\textureedit\omegacraft14\omegacraft14.zip" -Force
 
 # Calculate SHA1 hash for server deployment
@@ -29,4 +35,3 @@ $destination = "Q:\games\Minecraft\textureedit\omegacraft14\backup_omegacraft14_
 
 Write-Host "`nPress any key to continue...";
 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
-
