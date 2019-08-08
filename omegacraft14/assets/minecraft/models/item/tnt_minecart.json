@@ -3,7 +3,7 @@
     "parent": "block/block",
     "ambientocclusion": false,
     "textures": {
-        "particle": "#side",
+        "particle": "block/tnt_side",
         "texture": "entity/3dtiles/minecart",
         "top": "block/tnt_top",
         "side": "block/tnt_side",

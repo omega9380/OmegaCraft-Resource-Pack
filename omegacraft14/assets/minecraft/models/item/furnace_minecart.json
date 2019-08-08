@@ -2,7 +2,7 @@
     "__comment": "Designed by MinecraftSpace with Cubik Studio - https://cubik.studio",
     "parent": "block/block",
     "textures": {
-        "particle": "#front",
+        "particle": "block/furnace_front",
         "texture": "entity/3dtiles/minecart",
         "top": "block/furnace_top",
         "front": "block/furnace_front",
