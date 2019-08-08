@@ -9,11 +9,11 @@ $working = ".\omegacraft14"
 $git = "."
 
 if (!(Test-Path "./backup")){
-	New-Item -Path . Name "backup" -ItemType "directory"
+	New-Item -Path . -Name "backup" -ItemType "directory"
 	}
 
 if (!(Test-Path "./packed")){
-	New-Item -Path . Name "packed" -ItemType "directory"
+	New-Item -Path . -Name "packed" -ItemType "directory"
 	}	
 
 # Backup resource pack
