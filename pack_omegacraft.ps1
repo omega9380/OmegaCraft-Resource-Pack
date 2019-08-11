@@ -3,7 +3,7 @@ $date = Get-Date -UFormat %Y%m%d
 $timestamp = $date + "T" + $time
 $zipfile = "omegacraft14.zip"
 #$location = "Q:\games\Minecraft\textureedit"
-$zip = ".\packed\" + $zipfile
+$zip = ".\release\" + $zipfile
 $destination = ".\backup\backup_omegacraft14_" + $timestamp + ".zip"
 $working = ".\omegacraft14"
 $git = "."
@@ -12,8 +12,8 @@ if (!(Test-Path "./backup")){
 	New-Item -Path . -Name "backup" -ItemType "directory"
 	}
 
-if (!(Test-Path "./packed")){
-	New-Item -Path . -Name "packed" -ItemType "directory"
+if (!(Test-Path "./release")){
+	New-Item -Path . -Name "release" -ItemType "directory"
 	}	
 
 # Backup resource pack
@@ -27,7 +27,7 @@ if (!(Test-Path "./packed")){
 	}
 
 # Create new pack and move it
-	if (!(Test-Path ".\packed\omegacraft14.zip")) {
+	if (!(Test-Path ".\release\omegacraft14.zip")) {
 		7z a $zip "$working\*"
 	}
 	else {

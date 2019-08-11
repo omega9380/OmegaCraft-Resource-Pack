@@ -3,7 +3,7 @@
     "parent": "block/cube_directional",
     "textures": {
         "particle": "block/command_block_back",
-        "texture": "block/entity/minecart",
+        "texture": "entity/minecart",
         "down": "block/command_block_side",
         "up": "block/command_block_side",
         "north": "block/command_block_front",
