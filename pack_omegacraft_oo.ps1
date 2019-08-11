@@ -1,11 +1,11 @@
 $time = Get-Date -UFormat %H%M%S
 $date = Get-Date -UFormat %Y%m%d
 $timestamp = $date + "T" + $time
-$zipfile = "omegacraft14.zip"
+$zipfile = "omegacraft14_obvious_ores.zip"
 #$location = "Q:\games\Minecraft\textureedit"
 $zip = ".\release\" + $zipfile
-$destination = ".\backup\backup_omegacraft14_" + $timestamp + ".zip"
-$working = ".\omegacraft14"
+$destination = ".\backup\backup_omegacraft14_obvious_ores_" + $timestamp + ".zip"
+$working = ".\omegacraft14_obvious_ores"
 $git = "."
 
 if (!(Test-Path "./backup")){
