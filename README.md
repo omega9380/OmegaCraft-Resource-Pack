@@ -8,3 +8,6 @@ DISCLAIMER:  I started with Jea Traditional x64 from Minecraft 1.13 and have bee
 Pouch by Kevin Klein from the Noun Project
 
 Running by Supalerk Laipawat from the Noun Project
+
+Wrench by Hrbon from the Noun ProjectW
+
