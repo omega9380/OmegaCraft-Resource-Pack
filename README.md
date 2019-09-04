@@ -9,5 +9,5 @@ Pouch by Kevin Klein from the Noun Project
 
 Running by Supalerk Laipawat from the Noun Project
 
-Wrench by Hrbon from the Noun ProjectW
+Wrench by Hrbon from the Noun Project
 
