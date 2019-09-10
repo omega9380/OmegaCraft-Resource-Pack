@@ -8,7 +8,7 @@ $backuppath = ".\backup\"
 $destination = $backuppath + "backup_omegacraft14_" + $timestamp + ".zip"
 $working = ".\omegacraft14"
 $git = "."
-$daysback = "-20"
+$daysback = "-5"
 $currentdate = Get-Date
 $datetodelete = $currentdate.AddDays($daysback)
 
@@ -20,7 +20,7 @@ if (!(Test-Path "./release")){
 	New-Item -Path . -Name "release" -ItemType "directory"
 	}	
 
-# Remove backups older than 20 days and backup resource pack
+# Remove backups older than 5 days and backup resource pack
 
 	try {
 		Get-ChildItem $backuppath | Where-Object { $_.LastWriteTime -lt $datetodelete } | Remove-Item -Recurse
