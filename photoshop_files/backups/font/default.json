@@ -1,0 +1,60 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "minecraft:roboto.ttf",
+			"shift": [0, 0.5],
+			"size": 11.0,
+			"oversample": 4.0,
+			"skip": ""
+        },
+		{
+            "type": "ttf",
+            "file": "minecraft:noto.ttf",
+			"shift": [0, 0.5],
+			"size": 11.0,
+			"oversample": 4.0,
+			"skip": ""
+        },
+		{
+            "type": "ttf",
+            "file": "minecraft:noto-emoji.ttf",
+			"shift": [0, 0.5],
+			"size": 11.0,
+			"oversample": 4.0,
+			"skip": ""
+        },
+		{
+            "type": "ttf",
+            "file": "minecraft:mincho.ttf",
+			"shift": [0, 0.5],
+			"size": 11.0,
+			"oversample": 4.0,
+			"skip": ""
+        },
+		{
+            "type": "ttf",
+            "file": "minecraft:noto-hebrew.ttf",
+			"shift": [0, 0.5],
+			"size": 11.0,
+			"oversample": 4.0,
+			"skip": ""
+        },
+		{
+            "type": "ttf",
+            "file": "minecraft:noto-telugu.ttf",
+			"shift": [0, 0.5],
+			"size": 11.0,
+			"oversample": 4.0,
+			"skip": ""
+        },
+		{
+            "type": "ttf",
+            "file": "minecraft:noto-thai.ttf",
+			"shift": [0, 0.5],
+			"size": 11.0,
+			"oversample": 4.0,
+			"skip": ""
+        }
+	]
+}

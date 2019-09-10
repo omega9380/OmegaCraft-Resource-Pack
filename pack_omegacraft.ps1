@@ -4,9 +4,13 @@ $timestamp = $date + "T" + $time
 $zipfile = "omegacraft14.zip"
 #$location = "Q:\games\Minecraft\textureedit"
 $zip = ".\release\" + $zipfile
-$destination = ".\backup\backup_omegacraft14_" + $timestamp + ".zip"
+$backuppath = ".\backup\"
+$destination = $backuppath + "backup_omegacraft14_" + $timestamp + ".zip"
 $working = ".\omegacraft14"
 $git = "."
+$daysback = "-20"
+$currentdate = Get-Date
+$datetodelete = $currentdate.AddDays($daysback)
 
 if (!(Test-Path "./backup")){
 	New-Item -Path . -Name "backup" -ItemType "directory"
@@ -16,7 +20,15 @@ if (!(Test-Path "./release")){
 	New-Item -Path . -Name "release" -ItemType "directory"
 	}	
 
-# Backup resource pack
+# Remove backups older than 20 days and backup resource pack
+
+	try {
+		Get-ChildItem $backuppath | Where-Object { $_.LastWriteTime -lt $datetodelete } | Remove-Item -Recurse
+	}
+	catch {
+		Write-Host "No files older than 20 days.  Continuing..."
+	}
+
 	if (Test-Path $zip){
 		Write-Host "Backing up $zip..."
 		Copy-Item -Path $zip -Destination $destination
