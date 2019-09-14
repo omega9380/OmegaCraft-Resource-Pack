@@ -1,0 +1,22 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "block/dropper_top",
+        "front": "block/dropper_front",
+        "side": "block/furnace_top"
+    },
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"texture": "#front"},
+				"south": {"texture": "#side"},
+				"east": {"texture": "#top", "rotation": 90},
+				"west": {"texture": "#top", "rotation": 270},
+				"up": {"texture": "#top"},				
+				"down": {"texture": "#top", "rotation": 180}
+			}
+		}
+	]
+}

@@ -63,6 +63,6 @@ if (!(Test-Path "./release")){
 	# ssh -p 23466 root@www 'chown -v snipeitapp:apache /var/www/snipeit/public/minecraft/omegacraft14.zip'
 	# Write-Host "`nCopied to web server."
 
-Write-Host "`nPress any key to continue...";
-$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
+#Write-Host "`nPress any key to continue...";
+#$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
 
