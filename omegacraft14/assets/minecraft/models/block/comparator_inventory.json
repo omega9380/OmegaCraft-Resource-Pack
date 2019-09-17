@@ -3,7 +3,7 @@
 	"parent": "block/block_higher",
 	"ambientocclusion": false,
 	"textures": {
-		"slab": "block/stone",
+		"slab": "block/smooth_stone",
 		"top": "block/comparator",
 		"particle": "block/comparator",
 		"unlit": "block/redstone_torch_off"

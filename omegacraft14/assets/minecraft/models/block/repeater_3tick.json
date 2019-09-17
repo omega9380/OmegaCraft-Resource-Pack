@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"slab": "block/stone",
+		"slab": "block/smooth_stone",
 		"top": "block/repeater_3tick",
 		"particle": "block/repeater_3tick",
 		"unlit": "block/redstone_torch_off"

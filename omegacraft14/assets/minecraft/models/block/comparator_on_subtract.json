@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"4": "block/stone",
+		"4": "block/smooth_stone",
 		"top": "block/comparator_on",
 		"particle": "block/comparator_on",
 		"lit": "block/redstone_torch"
