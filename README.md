@@ -11,5 +11,3 @@ Running by Supalerk Laipawat from [the Noun Project](https://thenounproject.com)
 
 Wrench by Hrbon from [the Noun Project](https://thenounproject.com)
 
-Jar by Claire Jones from [the Noun Project] (https://thenounproject.com/term/jar/31767/)
-
