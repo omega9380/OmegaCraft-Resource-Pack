@@ -11,3 +11,7 @@ Running by Supalerk Laipawat from [the Noun Project](https://thenounproject.com)
 
 Wrench by Hrbon from [the Noun Project](https://thenounproject.com)
 
+Octahedron by Anthony Ledoux from [the Noun Project](https://thenounproject.com/Vntole/uploads/?i=1751812)
+
+Golden Ratio by Anthony Ledoux from [the Noun Project](https://thenounproject.com/Vntole/uploads/?i=1751833)
+
